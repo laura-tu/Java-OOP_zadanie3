@@ -1,0 +1,147 @@
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 0, Errors: 16, Skipped: 0, Time elapsed: 8.271 s <<< FAILURE! - in sk.stuba.fei.uim.oop.assignment3.Assignment3Tests
+testPayForCartTwice  Time elapsed: 0.041 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":2,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 25] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testPayForCartTwice(Assignment3Tests.java:346)
+
+addProductToCartRemovesFromStorage  Time elapsed: 0.016 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":7,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 25] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartRemovesFromStorage(Assignment3Tests.java:254)
+
+testAddShoppingCart201Response  Time elapsed: 0.017 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":10,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testAddShoppingCart201Response(Assignment3Tests.java:196)
+
+testPayForMissingCart  Time elapsed: 0.063 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":13,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testPayForMissingCart(Assignment3Tests.java:335)
+
+addProductToCartMissingProduct  Time elapsed: 0.036 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":16,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartMissingProduct(Assignment3Tests.java:287)
+
+testAddShoppingCart  Time elapsed: 0.025 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":17,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testAddShoppingCart(Assignment3Tests.java:191)
+
+testGetMissingShoppingCartById  Time elapsed: 0.014 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":18,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetMissingShoppingCartById(Assignment3Tests.java:212)
+
+testDeleteMissingShoppingCartById  Time elapsed: 0.008 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":19,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testDeleteMissingShoppingCartById(Assignment3Tests.java:234)
+
+testPayForShoppingCart  Time elapsed: 0.011 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":20,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testPayForShoppingCart(Assignment3Tests.java:312)
+
+addProductToCartExistingProduct  Time elapsed: 0.01 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":23,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartExistingProduct(Assignment3Tests.java:301)
+
+addProductToCart  Time elapsed: 0.014 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":24,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCart(Assignment3Tests.java:243)
+
+testDeleteShoppingCartById  Time elapsed: 0.037 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":25,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testDeleteShoppingCartById(Assignment3Tests.java:221)
+
+addProductToCartPayedCart  Time elapsed: 0.017 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":26,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartPayedCart(Assignment3Tests.java:361)
+
+addProductToCartMissingCart  Time elapsed: 0.024 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":28,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartMissingCart(Assignment3Tests.java:294)
+
+testGetShoppingCartById  Time elapsed: 0.026 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":29,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetShoppingCartById(Assignment3Tests.java:201)
+
+addProductToCartNotEnoughProduct  Time elapsed: 0.133 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":30,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartNotEnoughProduct(Assignment3Tests.java:267)
+

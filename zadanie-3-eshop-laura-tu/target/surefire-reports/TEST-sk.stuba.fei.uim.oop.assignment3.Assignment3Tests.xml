@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="8.271" tests="29" errors="16" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\Laura\OneDrive - Slovenská technická univerzita v Bratislave\Pracovná plocha\4.semester\OOP\OOP23\zadanie-3-eshop-laura-tu\target\test-classes;C:\Users\Laura\OneDrive - Slovenská technická univerzita v Bratislave\Pracovná plocha\4.semester\OOP\OOP23\zadanie-3-eshop-laura-tu\target\classes;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.4.5\spring-boot-starter-web-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter\2.4.5\spring-boot-starter-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot\2.4.5\spring-boot-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.4.5\spring-boot-autoconfigure-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.4.5\spring-boot-starter-logging-2.4.5.jar;C:\Users\Laura\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Laura\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Laura\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.13.3\log4j-to-slf4j-2.13.3.jar;C:\Users\Laura\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\Laura\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;C:\Users\Laura\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\Laura\.m2\repository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.4.5\spring-boot-starter-json-2.4.5.jar;C:\Users\Laura\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.4\jackson-databind-2.11.4.jar;C:\Users\Laura\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.4\jackson-annotations-2.11.4.jar;C:\Users\Laura\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.4\jackson-core-2.11.4.jar;C:\Users\Laura\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.11.4\jackson-datatype-jdk8-2.11.4.jar;C:\Users\Laura\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.11.4\jackson-datatype-jsr310-2.11.4.jar;C:\Users\Laura\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.11.4\jackson-module-parameter-names-2.11.4.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.4.5\spring-boot-starter-tomcat-2.4.5.jar;C:\Users\Laura\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.45\tomcat-embed-core-9.0.45.jar;C:\Users\Laura\.m2\repository\org\glassfish\jakarta.el\3.0.3\jakarta.el-3.0.3.jar;C:\Users\Laura\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.45\tomcat-embed-websocket-9.0.45.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-web\5.3.6\spring-web-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-beans\5.3.6\spring-beans-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-webmvc\5.3.6\spring-webmvc-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-aop\5.3.6\spring-aop-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-context\5.3.6\spring-context-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-expression\5.3.6\spring-expression-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.4.5\spring-boot-starter-data-jpa-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.4.5\spring-boot-starter-aop-2.4.5.jar;C:\Users\Laura\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.4.5\spring-boot-starter-jdbc-2.4.5.jar;C:\Users\Laura\.m2\repository\com\zaxxer\HikariCP\3.4.5\HikariCP-3.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-jdbc\5.3.6\spring-jdbc-5.3.6.jar;C:\Users\Laura\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\Laura\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\Laura\.m2\repository\org\hibernate\hibernate-core\5.4.30.Final\hibernate-core-5.4.30.Final.jar;C:\Users\Laura\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;C:\Users\Laura\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\Laura\.m2\repository\net\bytebuddy\byte-buddy\1.10.22\byte-buddy-1.10.22.jar;C:\Users\Laura\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Laura\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\Laura\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Laura\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\Laura\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\Laura\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.4\jaxb-runtime-2.3.4.jar;C:\Users\Laura\.m2\repository\org\glassfish\jaxb\txw2\2.3.4\txw2-2.3.4.jar;C:\Users\Laura\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\Laura\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Laura\.m2\repository\org\springframework\data\spring-data-jpa\2.4.8\spring-data-jpa-2.4.8.jar;C:\Users\Laura\.m2\repository\org\springframework\data\spring-data-commons\2.4.8\spring-data-commons-2.4.8.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-orm\5.3.6\spring-orm-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-tx\5.3.6\spring-tx-5.3.6.jar;C:\Users\Laura\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-aspects\5.3.6\spring-aspects-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-hateoas\2.4.5\spring-boot-starter-hateoas-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\hateoas\spring-hateoas\1.2.5\spring-hateoas-1.2.5.jar;C:\Users\Laura\.m2\repository\org\springframework\plugin\spring-plugin-core\2.0.0.RELEASE\spring-plugin-core-2.0.0.RELEASE.jar;C:\Users\Laura\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar;C:\Users\Laura\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.4.5\spring-boot-starter-test-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-test\2.4.5\spring-boot-test-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.4.5\spring-boot-test-autoconfigure-2.4.5.jar;C:\Users\Laura\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\Laura\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Laura\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\Laura\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\Laura\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Laura\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Laura\.m2\repository\org\assertj\assertj-core\3.18.1\assertj-core-3.18.1.jar;C:\Users\Laura\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Laura\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.1\junit-jupiter-5.7.1.jar;C:\Users\Laura\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\Laura\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Laura\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Laura\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\Laura\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;C:\Users\Laura\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\Laura\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\Laura\.m2\repository\org\mockito\mockito-core\3.6.28\mockito-core-3.6.28.jar;C:\Users\Laura\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.22\byte-buddy-agent-1.10.22.jar;C:\Users\Laura\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\Laura\.m2\repository\org\mockito\mockito-junit-jupiter\3.6.28\mockito-junit-jupiter-3.6.28.jar;C:\Users\Laura\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\Laura\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-core\5.3.6\spring-core-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-jcl\5.3.6\spring-jcl-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-test\5.3.6\spring-test-5.3.6.jar;C:\Users\Laura\.m2\repository\org\xmlunit\xmlunit-core\2.7.0\xmlunit-core-2.7.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Prague"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="SK"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Laura\AppData\Local\Temp\surefire2553898433158227091\surefirebooter1891436105702816141.jar C:\Users\Laura\AppData\Local\Temp\surefire2553898433158227091 2023-05-04T09-55-36_393-jvmRun1 surefire17344299222930570474tmp surefire_08332961776137665003tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Laura\OneDrive - Slovenská technická univerzita v Bratislave\Pracovná plocha\4.semester\OOP\OOP23\zadanie-3-eshop-laura-tu\target\test-classes;C:\Users\Laura\OneDrive - Slovenská technická univerzita v Bratislave\Pracovná plocha\4.semester\OOP\OOP23\zadanie-3-eshop-laura-tu\target\classes;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.4.5\spring-boot-starter-web-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter\2.4.5\spring-boot-starter-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot\2.4.5\spring-boot-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.4.5\spring-boot-autoconfigure-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.4.5\spring-boot-starter-logging-2.4.5.jar;C:\Users\Laura\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Laura\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Laura\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.13.3\log4j-to-slf4j-2.13.3.jar;C:\Users\Laura\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\Laura\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;C:\Users\Laura\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\Laura\.m2\repository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.4.5\spring-boot-starter-json-2.4.5.jar;C:\Users\Laura\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.4\jackson-databind-2.11.4.jar;C:\Users\Laura\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.4\jackson-annotations-2.11.4.jar;C:\Users\Laura\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.4\jackson-core-2.11.4.jar;C:\Users\Laura\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.11.4\jackson-datatype-jdk8-2.11.4.jar;C:\Users\Laura\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.11.4\jackson-datatype-jsr310-2.11.4.jar;C:\Users\Laura\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.11.4\jackson-module-parameter-names-2.11.4.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.4.5\spring-boot-starter-tomcat-2.4.5.jar;C:\Users\Laura\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.45\tomcat-embed-core-9.0.45.jar;C:\Users\Laura\.m2\repository\org\glassfish\jakarta.el\3.0.3\jakarta.el-3.0.3.jar;C:\Users\Laura\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.45\tomcat-embed-websocket-9.0.45.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-web\5.3.6\spring-web-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-beans\5.3.6\spring-beans-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-webmvc\5.3.6\spring-webmvc-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-aop\5.3.6\spring-aop-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-context\5.3.6\spring-context-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-expression\5.3.6\spring-expression-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.4.5\spring-boot-starter-data-jpa-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.4.5\spring-boot-starter-aop-2.4.5.jar;C:\Users\Laura\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.4.5\spring-boot-starter-jdbc-2.4.5.jar;C:\Users\Laura\.m2\repository\com\zaxxer\HikariCP\3.4.5\HikariCP-3.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-jdbc\5.3.6\spring-jdbc-5.3.6.jar;C:\Users\Laura\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\Laura\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\Laura\.m2\repository\org\hibernate\hibernate-core\5.4.30.Final\hibernate-core-5.4.30.Final.jar;C:\Users\Laura\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;C:\Users\Laura\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\Laura\.m2\repository\net\bytebuddy\byte-buddy\1.10.22\byte-buddy-1.10.22.jar;C:\Users\Laura\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Laura\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\Laura\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Laura\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\Laura\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\Laura\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.4\jaxb-runtime-2.3.4.jar;C:\Users\Laura\.m2\repository\org\glassfish\jaxb\txw2\2.3.4\txw2-2.3.4.jar;C:\Users\Laura\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\Laura\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Laura\.m2\repository\org\springframework\data\spring-data-jpa\2.4.8\spring-data-jpa-2.4.8.jar;C:\Users\Laura\.m2\repository\org\springframework\data\spring-data-commons\2.4.8\spring-data-commons-2.4.8.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-orm\5.3.6\spring-orm-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-tx\5.3.6\spring-tx-5.3.6.jar;C:\Users\Laura\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-aspects\5.3.6\spring-aspects-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-hateoas\2.4.5\spring-boot-starter-hateoas-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\hateoas\spring-hateoas\1.2.5\spring-hateoas-1.2.5.jar;C:\Users\Laura\.m2\repository\org\springframework\plugin\spring-plugin-core\2.0.0.RELEASE\spring-plugin-core-2.0.0.RELEASE.jar;C:\Users\Laura\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar;C:\Users\Laura\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.4.5\spring-boot-starter-test-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-test\2.4.5\spring-boot-test-2.4.5.jar;C:\Users\Laura\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.4.5\spring-boot-test-autoconfigure-2.4.5.jar;C:\Users\Laura\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\Laura\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Laura\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\Laura\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\Laura\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Laura\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Laura\.m2\repository\org\assertj\assertj-core\3.18.1\assertj-core-3.18.1.jar;C:\Users\Laura\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Laura\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.1\junit-jupiter-5.7.1.jar;C:\Users\Laura\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\Laura\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Laura\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Laura\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\Laura\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;C:\Users\Laura\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\Laura\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\Laura\.m2\repository\org\mockito\mockito-core\3.6.28\mockito-core-3.6.28.jar;C:\Users\Laura\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.22\byte-buddy-agent-1.10.22.jar;C:\Users\Laura\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\Laura\.m2\repository\org\mockito\mockito-junit-jupiter\3.6.28\mockito-junit-jupiter-3.6.28.jar;C:\Users\Laura\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\Laura\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-core\5.3.6\spring-core-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-jcl\5.3.6\spring-jcl-5.3.6.jar;C:\Users\Laura\.m2\repository\org\springframework\spring-test\5.3.6\spring-test-5.3.6.jar;C:\Users\Laura\.m2\repository\org\xmlunit\xmlunit-core\2.7.0\xmlunit-core-2.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Laura"/>
+    <property name="user.language" value="sk"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Laura\OneDrive - Slovenská technická univerzita v Bratislave\Pracovná plocha\4.semester\OOP\OOP23\zadanie-3-eshop-laura-tu"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Laura\AppData\Local\Temp\surefire2553898433158227091\surefirebooter1891436105702816141.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="user.name" value="Laura"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Laura\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Laura\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.version" value="11"/>
+    <property name="user.dir" value="C:\Users\Laura\OneDrive - Slovenská technická univerzita v Bratislave\Pracovná plocha\4.semester\OOP\OOP23\zadanie-3-eshop-laura-tu"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Laura\CodeBlocks\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\bin;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Laura\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\CLion 2021.3.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;;C:\Program Files\Java\jdk-11\bin;C:\Users\Laura\AppData\Roaming\npm;C:\Users\Laura\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\DataGrip 2022.3.3\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testGetMissingProductAmount" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.58"/>
+  <testcase name="testPayForCartTwice" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.041">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:2,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 25] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":2,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 25] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testPayForCartTwice(Assignment3Tests.java:346)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:44.781  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@603a34e5, testMethod = testPayForCartTwice@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":2,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:44.810  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@603a34e5, testMethod = testPayForCartTwice@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":2,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 25] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="testGetProductAmount" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.024"/>
+  <testcase name="testUpdateMissingProduct" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.024"/>
+  <testcase name="testGetAllProduct" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.05"/>
+  <testcase name="addProductToCartRemovesFromStorage" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.016">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:7,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 25] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":7,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 25] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartRemovesFromStorage(Assignment3Tests.java:254)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:44.922  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@4cff38ff, testMethod = addProductToCartRemovesFromStorage@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":7,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:44.936  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@4cff38ff, testMethod = addProductToCartRemovesFromStorage@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":7,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 25] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteMissingProduct" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.018"/>
+  <testcase name="testIncrementMissingProductAmount" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.112"/>
+  <testcase name="testAddShoppingCart201Response" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.017">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:10,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":10,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testAddShoppingCart201Response(Assignment3Tests.java:196)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:45.001  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@715d82a0, testMethod = testAddShoppingCart201Response@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":10,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:45.052  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@715d82a0, testMethod = testAddShoppingCart201Response@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":10,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="testGetMissingProductById" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.031"/>
+  <testcase name="testIncrementProductAmount" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.041"/>
+  <testcase name="testPayForMissingCart" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.063">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:13,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":13,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testPayForMissingCart(Assignment3Tests.java:335)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:45.196  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@27f4761b, testMethod = testPayForMissingCart@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":13,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:45.212  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@27f4761b, testMethod = testPayForMissingCart@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":13,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateProduct" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.067"/>
+  <testcase name="testAddProduct201Response" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.03"/>
+  <testcase name="addProductToCartMissingProduct" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.036">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:16,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":16,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartMissingProduct(Assignment3Tests.java:287)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:45.348  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@3903cfc9, testMethod = addProductToCartMissingProduct@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":16,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:45.368  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@3903cfc9, testMethod = addProductToCartMissingProduct@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":16,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="testAddShoppingCart" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.025">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:17,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":17,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testAddShoppingCart(Assignment3Tests.java:191)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:45.394  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@1fb379e4, testMethod = testAddShoppingCart@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":17,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:45.413  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@1fb379e4, testMethod = testAddShoppingCart@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":17,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="testGetMissingShoppingCartById" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.014">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:18,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":18,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetMissingShoppingCartById(Assignment3Tests.java:212)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:45.416  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@49b6373f, testMethod = testGetMissingShoppingCartById@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":18,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:45.431  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@49b6373f, testMethod = testGetMissingShoppingCartById@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":18,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteMissingShoppingCartById" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.008">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:19,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":19,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testDeleteMissingShoppingCartById(Assignment3Tests.java:234)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:45.434  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@24be6e34, testMethod = testDeleteMissingShoppingCartById@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":19,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:45.442  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@24be6e34, testMethod = testDeleteMissingShoppingCartById@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":19,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="testPayForShoppingCart" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.011">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:20,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":20,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testPayForShoppingCart(Assignment3Tests.java:312)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:45.445  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@6b7ebac1, testMethod = testPayForShoppingCart@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":20,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:45.453  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@6b7ebac1, testMethod = testPayForShoppingCart@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":20,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="testAddProduct" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.013"/>
+  <testcase name="testGetProductById" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.016"/>
+  <testcase name="addProductToCartExistingProduct" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.01">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:23,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":23,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartExistingProduct(Assignment3Tests.java:301)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:45.487  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@20724c21, testMethod = addProductToCartExistingProduct@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":23,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:45.495  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@20724c21, testMethod = addProductToCartExistingProduct@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":23,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="addProductToCart" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.014">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:24,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":24,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCart(Assignment3Tests.java:243)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:45.499  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@4a6d6308, testMethod = addProductToCart@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":24,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:45.523  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@4a6d6308, testMethod = addProductToCart@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":24,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteShoppingCartById" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.037">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:25,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":25,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testDeleteShoppingCartById(Assignment3Tests.java:221)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:45.528  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@7f5c4ff8, testMethod = testDeleteShoppingCartById@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":25,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:45.566  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@7f5c4ff8, testMethod = testDeleteShoppingCartById@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":25,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="addProductToCartPayedCart" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.017">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:26,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":26,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartPayedCart(Assignment3Tests.java:361)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:45.573  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@870413c, testMethod = addProductToCartPayedCart@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":26,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:45.584  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@870413c, testMethod = addProductToCartPayedCart@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":26,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteProduct" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.056"/>
+  <testcase name="addProductToCartMissingCart" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.024">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:28,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":28,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartMissingCart(Assignment3Tests.java:294)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:45.670  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@4cc4f6bd, testMethod = addProductToCartMissingCart@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":28,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:45.688  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@4cc4f6bd, testMethod = addProductToCartMissingCart@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":28,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="testGetShoppingCartById" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.026">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:29,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":29,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetShoppingCartById(Assignment3Tests.java:201)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:45.696  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@5f5076f9, testMethod = testGetShoppingCartById@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":29,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:45.718  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@5f5076f9, testMethod = testGetShoppingCartById@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":29,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+  <testcase name="addProductToCartNotEnoughProduct" classname="sk.stuba.fei.uim.oop.assignment3.Assignment3Tests" time="0.133">
+    <error message="Unrecognized field &quot;shoppingCart&quot; (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: &quot;id&quot;, &quot;shoppingList&quot;, &quot;payed&quot;])&#10; at [Source: (String)&quot;{&quot;id&quot;:30,&quot;shoppingCart&quot;:[],&quot;alreadyInCart&quot;:false}&quot;; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse[&quot;shoppingCart&quot;])" type="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: 
+Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":30,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"])
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.stringToObject(Assignment3Tests.java:465)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:431)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartNotEnoughProduct(Assignment3Tests.java:267)
+</error>
+    <system-out><![CDATA[2023-05-04 09:55:45.724  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@7860a014, testMethod = addProductToCartNotEnoughProduct@Assignment3Tests, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f5a092e]; rollback [true]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /cart
+       Parameters = {}
+          Headers = [Accept:"application/json"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController
+           Method = sk.stuba.fei.uim.oop.assignment3.shoppingcart.web.CartController#addList()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":30,"shoppingCart":[],"alreadyInCart":false}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-05-04 09:55:45.852  INFO 19096 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@63b1d4fa testClass = Assignment3Tests, testInstance = sk.stuba.fei.uim.oop.assignment3.Assignment3Tests@7860a014, testMethod = addProductToCartNotEnoughProduct@Assignment3Tests, testException = com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "shoppingCart" (class sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse), not marked as ignorable (3 known properties: "id", "shoppingList", "payed"])
+ at [Source: (String)"{"id":30,"shoppingCart":[],"alreadyInCart":false}"; line: 1, column: 26] (through reference chain: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests$TestCartResponse["shoppingCart"]), mergedContextConfiguration = [WebMergedContextConfiguration@42e3ede4 testClass = Assignment3Tests, locations = '{}', classes = '{class sk.stuba.fei.uim.oop.assignment3.Assignment3}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@201b6b6f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@78aa1f72, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b7dc788, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5717c37, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5c45d770, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3370f42, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@f5ac9e4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+]]></system-out>
+  </testcase>
+</testsuite>
